@@ -1,0 +1,40 @@
+Offline synthetic tests only; no physical hardware, released binary, cross-compiler, or pyserial integration exercised.
+
+test_all_fragment_boundaries (test_wifistepper_uart.CodecTests.test_all_fragment_boundaries) ... ok
+test_bad_state_flag (test_wifistepper_uart.CodecTests.test_bad_state_flag) ... ok
+test_bad_state_size (test_wifistepper_uart.CodecTests.test_bad_state_size) ... ok
+test_bytewise (test_wifistepper_uart.CodecTests.test_bytewise) ... ok
+test_corrupt_body (test_wifistepper_uart.CodecTests.test_corrupt_body) ... ok
+test_corrupt_header (test_wifistepper_uart.CodecTests.test_corrupt_header) ... ok
+test_identity (test_wifistepper_uart.CodecTests.test_identity) ... ok
+test_noise_and_multiple (test_wifistepper_uart.CodecTests.test_noise_and_multiple) ... ok
+test_oversized (test_wifistepper_uart.CodecTests.test_oversized) ... ok
+test_ping_vector (test_wifistepper_uart.CodecTests.test_ping_vector) ... ok
+test_return_vector (test_wifistepper_uart.CodecTests.test_return_vector) ... ok
+test_stalled_candidate (test_wifistepper_uart.CodecTests.test_stalled_candidate) ... ok
+test_state (test_wifistepper_uart.CodecTests.test_state) ... ok
+test_sync_vector (test_wifistepper_uart.CodecTests.test_sync_vector) ... ok
+test_bounds (test_wifistepper_uart.HostTests.test_bounds) ... ok
+test_close_no_stop (test_wifistepper_uart.HostTests.test_close_no_stop) ... ok
+test_control_disabled (test_wifistepper_uart.HostTests.test_control_disabled) ... ok
+test_discovery_identification_state (test_wifistepper_uart.HostTests.test_discovery_identification_state) ... ok
+test_goto_auto (test_wifistepper_uart.HostTests.test_goto_auto) ... ok
+test_id_wrap (test_wifistepper_uart.HostTests.test_id_wrap) ... ok
+test_invalid_queue (test_wifistepper_uart.HostTests.test_invalid_queue) ... ok
+test_move_payload_and_ack_id (test_wifistepper_uart.HostTests.test_move_payload_and_ack_id) ... ok
+test_no_commands_on_construction (test_wifistepper_uart.HostTests.test_no_commands_on_construction) ... ok
+test_no_retry_timeout (test_wifistepper_uart.HostTests.test_no_retry_timeout) ... ok
+test_run_units (test_wifistepper_uart.HostTests.test_run_units) ... ok
+test_short_write_fails_without_retry (test_wifistepper_uart.HostTests.test_short_write_fails_without_retry) ... ok
+test_stale_heartbeat (test_wifistepper_uart.HostTests.test_stale_heartbeat) ... ok
+test_stop_distinction (test_wifistepper_uart.HostTests.test_stop_distinction) ... ok
+test_topology_change_invalidates (test_wifistepper_uart.HostTests.test_topology_change_invalidates) ... ok
+test_wait_opcodes (test_wifistepper_uart.HostTests.test_wait_opcodes) ... ok
+test_wait_signal_with_heartbeats (test_wifistepper_uart.HostTests.test_wait_signal_with_heartbeats) ... ok
+test_wrong_identity_disables (test_wifistepper_uart.HostTests.test_wrong_identity_disables) ... ok
+test_wrong_state_layout_revokes_identity (test_wifistepper_uart.HostTests.test_wrong_state_layout_revokes_identity) ... ok
+
+----------------------------------------------------------------------
+Ran 33 tests in 0.004s
+
+OK

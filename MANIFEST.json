@@ -1,0 +1,15 @@
+{
+  "source_commit": "3627d32739669bb249ec7a8760bd522925041a52",
+  "draft_status": "untested on hardware; ABI predictions require validation",
+  "python_test_count": 33,
+  "tests_successful": true,
+  "sha256": {
+    "README.md": "aa454462d22e08a9b56b2498cb64f6e8762768a973bae96c14aceef32d93e5c3",
+    "requirements.txt": "0b81718d1cbe8a7696e45a9388c9205272b5e345cd79d0cf1ccfb7a9fd1925e9",
+    "wifistepper_uart.py": "89a8de4b32a628c938afceecee9f2654a88427ea9a126441b7e23fb0d044c0cc",
+    "test_wifistepper_uart.py": "03e5addb755c719689a939fd4a7affccde16d239debd8992edda83e02d96c6e4",
+    "TEST_RESULTS.txt": "6b5c13ad64e9281442d27dd569146e92d890c9e07c1b05893437ce3c55bb2611",
+    "PROTOCOL.md": "472df5f4e63b2d90cedaee6754b072508e6485e8c9791f5f52c81bcfc666fc39",
+    "observe.py": "c8cfe3b304da20641b7fe9c72d8ef28ccd5d647acda50f488c9af6b528b7186a"
+  }
+}
